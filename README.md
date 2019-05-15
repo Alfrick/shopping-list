@@ -1,4 +1,4 @@
-# shoppinglist
+# shopping-list
 How to create a shopping list using @NgRx/Store in Angular
 
 For brevity, I've included only the necessary files. 
