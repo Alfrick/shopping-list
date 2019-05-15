@@ -1,0 +1,13 @@
+<div>
+
+  <h1>Shopping Items List</h1>
+  <p>(You can click on the item to remove it)</p>
+  <ul>
+    <!--pass the index of the clicked item to the deleteItem function-->
+    <li (click)="deleteItem(i)" *ngFor="let shopping of items | async; let i = index">
+        {{ shopping.name }}
+    <br><br>
+    </li>
+  </ul>
+
+</div>
